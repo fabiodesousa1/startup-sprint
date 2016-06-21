@@ -1,5 +1,3 @@
-class SampleModel
-  def test_method
-    "it works!"
-  end
+def test_method
+    return "it works!"
 end
