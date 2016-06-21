@@ -12,6 +12,10 @@ class App < Sinatra::Base
     redirect to('/')
   end
 
+  get '/team' do
+    erb :team
+  end
+
   post '/subscribe' do
     @full_name = params[:full_name]
     @email = params[:email]
@@ -75,6 +79,7 @@ class App < Sinatra::Base
     # TODO: calculate fib
   end
 end
+
 
 # in app.rb
 class App
