@@ -64,7 +64,7 @@ class App < Sinatra::Base
   get '/rainbow' do
     erb :rainbow
   end
-  
+
 end
 class App < Sinatra::Base
   get '/fib/:n' do
